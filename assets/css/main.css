@@ -9,7 +9,7 @@
 
 :root { 
   --background-color: #ffffff;
-  --default-color: #787676; /* Default color used for the majority of the text content across the entire website */
+  --default-color: ##323232; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #201e1e; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #998953; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -530,7 +530,7 @@ section,
   position: absolute;
   inset: 0;
   background: rgba(255, 255, 255, 0.15); 
-  backdrop-filter: blur(25px) saturate(180%);  
+  backdrop-filter: blur(px) saturate(180%);  
   -webkit-backdrop-filter: blur(12px) saturate(180%);
   border: 1px solid rgba(255, 255, 255, 0.3);  
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);  
@@ -565,7 +565,7 @@ section,
 .hero .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: color-mix(in srgb, var(--default-color), transparent 5%);
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
